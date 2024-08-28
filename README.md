@@ -1,1 +1,1 @@
-# Aplicaciones-Clinicas-en-Se-ales-e-Im-genes---Grupo-2
+# Aplicaciones-Clínicas-en-Señales-e-Imágenes---Grupo-2
