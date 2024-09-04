@@ -42,4 +42,6 @@ Proyecto: Detection of Cancerous Skin Lesions Through Deep Learning</p>
 <p align="center">
   Dataset HAM10000
 </p> 
+Referencia: </p> 
+https://github.com/Woodman718/FixCaps/blob/main/Module/COVID-19/FixCaps_9943.ipynb
 https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9791221&tag=1
