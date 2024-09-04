@@ -42,3 +42,4 @@ Proyecto: Detection of Cancerous Skin Lesions Through Deep Learning</p>
 <p align="center">
   Dataset HAM10000
 </p> 
+https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9791221&tag=1
