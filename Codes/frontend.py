@@ -13,7 +13,6 @@ import os
 os.environ["KMP_DUPLICATE_LIB_OK"] = "TRUE"
 import json
 import random
-import prettytable
 from thop.profile import profile
 import cv2
 import matplotlib.pyplot as plt
@@ -21,7 +20,7 @@ from torch.optim import lr_scheduler
 from torch.utils.data import DataLoader
 from torchvision import datasets
 from torchsummary import summary
-from tqdm import tqdm
+
 import seaborn as sns
 import torchvision.utils as vutils
 from IPython.display import display, clear_output, HTML
@@ -485,7 +484,8 @@ summary(network,(n_channels,img_size,img_size))
 
 # network.Convolution
 # network.load_state_dict(torch.load(save_PATH))
-best_model_path = 'C:/Users/I5/Downloads/best_HAM10000_0923_060705.pth'#'D:/ACSII_proyecto/FixCaps-main/augmentation/train525s8'
+#best_model_path = 'C:/Users/ldani/Documents/ACSEI/FixCaps/best_HAM10000_0923_060705.pth'#'D:/ACSII_proyecto/FixCaps-main/augmentation/train525s8'
+best_model_path = best_HAM10000_0923_060705.pth
 state_dict = torch.load(best_model_path, map_location=torch.device('cpu'))
 
 # Cargar el state_dict ignorando las claves adicionales
